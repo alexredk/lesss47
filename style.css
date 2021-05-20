@@ -1,0 +1,233 @@
+body {
+    margin: 0 auto;
+    background: white;
+    display: table;
+
+}
+.menu li a:hover {
+    color: rgb(116, 148, 238);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.menu > li > a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(87, 110, 241);
+    padding: 15px 30px;
+}
+ .menu > li {
+     position: relative;
+     font-family: 'Poppins', sans-serif;
+ }
+.main {
+    height: 100%;
+    width: 100%;
+}
+.g {
+    background: steelblue;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 5;
+    width: 180px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin:0 0 ;
+    transition: 5s ease-in-out;
+}
+.g a {
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.774) ;
+}
+.g li :last-child {
+    border-bottom: none;
+}
+.menu > li :hover .g {
+    opacity: 1;
+    transform: scaleY(1);
+}
+.head {
+    height: 700px;
+    width: 100%;
+   
+}
+menu {
+    display: block;
+}
+div ul ul  {
+    display: none;
+    position: absolute;
+}
+div ul li a:hover {
+    background-color: rgb(100, 100, 197);
+}
+div li :hover > ul {
+    display: block;
+}
+.golova {
+    height: 50px;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+    text-align: center;
+}
+ div ul {
+        background-color: rgb(158, 158, 196);
+        list-style: none;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        color: rgb(0, 0, 0);
+ }
+ a:hover {
+    transition:all 0.3s ;
+}
+div ul::after {
+    content:"";
+    display: block;
+    clear: both;
+ }
+ div ul a {
+     display: inline-block;
+     padding: 10px 50px;
+     width: 125px;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+ }
+
+ }
+ div ul ul {
+     display: none;
+     position: absolute;
+ }
+ div li:hover > ul {
+     display: block;
+ }
+ .link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: black;
+ }
+ .golova2 {
+ height: 500px;
+ width: 100%;
+ background-color: rgba(255, 255, 255, 0.774);
+ display: flex;
+ position: relative;
+ }
+ .img1 {
+     margin-left: 200px;
+ }
+ .text1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+ }
+ .text2 {
+     margin-right: 70px;
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;
+     
+ }
+ .texts {
+     margin-right: 100px;
+     margin-top: 100px;
+ }
+ .knopka {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 2px;
+    border: 1px solid;
+
+    color: white;
+    background-color: rgb(110, 110, 253);
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+ .golova3 {
+     height: 300px;
+     width: 100%;
+     display: flex;
+     background-color: white;
+ }
+ .text3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px; 
+    color: black;
+ }
+ .text4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+ }
+ .text5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    color: black;
+ }
+ .texts1 {
+     margin-top: 38px;
+     margin-left: 40px;
+     width: 330px;
+ }
+ .img2 {
+     margin-left: 20px;
+ }
+ .content {
+     height: 700px;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     margin-top: 210px;
+ }
+ .text6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+ }
+ .texts3 {
+     display: flex;
+     margin-top: 40px;
+    margin-left: 200px;
+     justify-content: space-evenly;
+ }
+ .text7 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    color: black;
+ }
+ .project1 {
+     height: 250px;
+     width: 100%;
+     display: flex;
+    justify-content: space-around;
+     margin-top: 80px;
+ }
+ .img5 {
+     height: 300px;
+     width: 320px;
+ }
+ .project2 {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 280px;
+    margin-right: 500px;
+ }
+ 
+
